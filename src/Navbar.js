@@ -1,6 +1,6 @@
 
 import './App.css';
-import * as React from 'react';
+import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -14,10 +14,17 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 
+
+
+
 const pages = ['Home', 'About', 'Shop'];
 
 
 const ResponsiveAppBar = () => {
+
+
+
+
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
 
@@ -33,6 +40,9 @@ const ResponsiveAppBar = () => {
 
 
     const checkForShop = (page) => {
+
+
+
 
         if (page !== "Shop") {
 
